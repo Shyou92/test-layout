@@ -1,0 +1,17 @@
+.form__input {
+  margin-bottom: 15px;
+  background-color: #4e4f52;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.form__input::placeholder {
+  color: #000;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.form__input:nth-last-of-type(1) {
+  margin-bottom: 32px;
+}

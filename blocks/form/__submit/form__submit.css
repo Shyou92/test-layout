@@ -1,0 +1,11 @@
+.form__submit {
+  width: 100%;
+  height: 45px;
+  background-color: #ffcb3a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  line-height: 18px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
