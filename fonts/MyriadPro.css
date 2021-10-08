@@ -1,7 +1,13 @@
 @font-face {
-  font-family: 'Myriad-Pro';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("MYRIADPRO-REGULAR.woff") format("woff"),
-}
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+  }
+
+@font-face {
+  font-family: 'Myriad Pro Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('MYRIADPRO-CONDIT.woff') format('woff');
+  }

@@ -1,4 +1,7 @@
 .logo-container__image {
   margin: 0 0 10px;
   padding: 0;
+  font-family: Lobster, Arial,sans-serif;
+  font-size: 52px;
+  line-height: 52px;
 }
