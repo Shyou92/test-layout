@@ -22,3 +22,17 @@
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__submit/form__submit.css);
 @import url(../blocks/form/__info/form__info.css);
+
+/*opportunities*/
+
+@import url(../blocks/opportunities/opportunities.css);
+@import url(../blocks/opportunities/__header/opportunities__header.css);
+@import url(../blocks/opportunities/__subheader/opportunities__subheader.css);
+@import url(../blocks/opportunities/__text-container/opportunities__text-container.css);
+@import url(../blocks/opportunities/__text/opportunities__text.css);
+@import url(../blocks/grid/grid.css);
+@import url(../blocks/grid/__item/grid__item.css);
+@import url(../blocks/grid/__item-container/grid__item-container.css);
+@import url(../blocks/grid/__image/grid__image.css);
+@import url(../blocks/grid/__subscription/grid__subscription.css);
+@import url(../blocks/grid/__item/_selected/grid__item_selected.css);

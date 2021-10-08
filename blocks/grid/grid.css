@@ -1,0 +1,7 @@
+.grid {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
