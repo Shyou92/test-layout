@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
-  <script src="./pages/index.css" defer></script>
+  <script src="./index.js" defer></script>
   <title>Test layout</title>
 </head>
 <body class="page">
@@ -97,22 +97,22 @@
         <p class="timer__subscription">до конца акции осталось:</p>
         <ul class="timer__screen">
           <li class="timer__numbers">
-            <p class="timer__numbers-display">01</p>
+            <p class="timer__numbers-display" id="days"></p>
             <p class="timer__numbers-subscription">дней</p>
           </li>
           <li class="timer__colon">:</li>
           <li class="timer__numbers">
-            <p class="timer__numbers-display">22</p>
+            <p class="timer__numbers-display" id="hours"></p>
             <p class="timer__numbers-subscription">часов</p>
           </li>
           <li class="timer__colon">:</li>
           <li class="timer__numbers">
-            <p class="timer__numbers-display">34</p>
+            <p class="timer__numbers-display" id="minutes"></p>
             <p class="timer__numbers-subscription">минут</p>
           </li>
           <li class="timer__colon">:</li>
           <li class="timer__numbers">
-            <p class="timer__numbers-display">17</p>
+            <p class="timer__numbers-display" id="seconds"></p>
             <p class="timer__numbers-subscription">секунд</p>
           </li>
         </ul>
