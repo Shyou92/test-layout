@@ -3,7 +3,7 @@ const hoursElement = document.querySelector("#hours");
 const minutesElement = document.querySelector("#minutes");
 const secondsElement = document.querySelector("#seconds");
 
-const endDate = new Date("Oct 12, 2021 12:00:00").getTime();
+const endDate = new Date("Oct 15, 2021 12:00:00").getTime();
 
 const timer = setInterval(() => {
   let now = new Date().getTime();

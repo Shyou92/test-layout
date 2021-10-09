@@ -31,3 +31,8 @@
   background-position: 94% 0%;
   visibility: hidden;
 }
+
+.form__submit:hover {
+  transition: .2s;
+  opacity: .95;
+}
