@@ -1,0 +1,5 @@
+.awards__list {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 40px;
+}

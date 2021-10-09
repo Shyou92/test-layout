@@ -68,3 +68,10 @@
 @import url(../blocks/timer/__numbers-display/timer__numbers-display.css);
 @import url(../blocks/timer/__colon/timer__colon.css);
 @import url(../blocks/timer/__numbers-subscription/timer__numbers-subscription.css);
+
+/*awards*/
+
+@import url(../blocks/awards/awards.css);
+@import url(../blocks/awards/__header/awards__header.css);
+@import url(../blocks/awards/__list/awards__list.css);
+@import url(../blocks/awards/__list-item/awards__list-item.css);

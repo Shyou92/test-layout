@@ -1,0 +1,7 @@
+.awards__list-item {
+  margin-right: 40px;
+}
+
+.awards__list-item:last-of-type(1)  {
+  margin-right: 0;
+}
