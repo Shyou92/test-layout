@@ -1,0 +1,8 @@
+.promotion__form {
+  margin-left: calc(20%);
+  margin-right: calc(38%);
+  padding-bottom: 30px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}

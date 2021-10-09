@@ -1,0 +1,8 @@
+.promotion__form-input {
+  width: 235px;
+  margin-right: 30px;
+}
+
+.promotion__form-input:nth-last-of-type(1) {
+  margin-right: 0;
+}

@@ -14,11 +14,18 @@
 @import url(../blocks/logo-container/__image/logo-container__image.css);
 @import url(../blocks/address-container/address-container.css);
 @import url(../blocks/address-container/__text/address-container__text.css);
+
+/*list*/
+
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/__item/list__item.css);
 @import url(../blocks/list/__phone/list__phone.css);
+
+/*form*/
+
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__header/form__header.css);
+@import url(../blocks/form/__container/form__container.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__submit/form__submit.css);
 @import url(../blocks/form/__info/form__info.css);
@@ -30,9 +37,34 @@
 @import url(../blocks/opportunities/__subheader/opportunities__subheader.css);
 @import url(../blocks/opportunities/__text-container/opportunities__text-container.css);
 @import url(../blocks/opportunities/__text/opportunities__text.css);
+
+/*grid*/
+
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/grid/__item/grid__item.css);
 @import url(../blocks/grid/__item-container/grid__item-container.css);
 @import url(../blocks/grid/__image/grid__image.css);
 @import url(../blocks/grid/__subscription/grid__subscription.css);
 @import url(../blocks/grid/__item/_selected/grid__item_selected.css);
+
+/*promotions*/
+
+@import url(../blocks/promotion/promotion.css);
+@import url(../blocks/promotion/__container/promotion__container.css);
+@import url(../blocks/promotion/__header/promotion__header.css);
+@import url(../blocks/promotion/__subheader/promotion__subheader.css);
+@import url(../blocks/promotion/__subheader/_large/promotion__subheader_large.css);
+@import url(../blocks/promotion/__form/promotion__form.css);
+@import url(../blocks/promotion/__form-header/promotion__form-header.css);
+@import url(../blocks/promotion/__form-container/promotion__form-container.css);
+@import url(../blocks/promotion/__form-input/promotion__form-input.css);
+
+/*timer*/
+
+@import url(../blocks/timer/timer.css);
+@import url(../blocks/timer/__subscription/timer__subscription.css);
+@import url(../blocks/timer/__screen/timer__screen.css);
+@import url(../blocks/timer/__numbers/timer__numbers.css);
+@import url(../blocks/timer/__numbers-display/timer__numbers-display.css);
+@import url(../blocks/timer/__colon/timer__colon.css);
+@import url(../blocks/timer/__numbers-subscription/timer__numbers-subscription.css);

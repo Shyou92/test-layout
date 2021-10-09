@@ -1,9 +1,11 @@
 .form__input {
+  width: 100%;
   margin-bottom: 15px;
   background-color: #4e4f52;
   height: 30px;
   border: none;
   outline: none;
+  padding: 0;
 }
 
 .form__input::placeholder {

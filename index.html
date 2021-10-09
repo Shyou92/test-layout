@@ -35,9 +35,10 @@
     </div>
     <form action="" class="form page__form">
       <h3 class="form__header">Хотите стать ещё красивее</h3>
-      <input type="text" name="" id="" class="form__input" placeholder="Введите имя">
-      <input type="tel" name="" id="" class="form__input" placeholder="Введите телефон">
-
+      <div class="form__container">
+        <input type="text" name="" id="" class="form__input" placeholder="Введите имя">
+        <input type="tel" name="" id="" class="form__input" placeholder="Введите телефон">
+      </div>
       <button class="form__submit">Отправить заявку</button>
       <span class="form__info">В течение часа мы свяжемся с Вами для согласования удобного времени</span>
     </form>
@@ -84,6 +85,48 @@
     <div class="opportunities__text-container">
       <p class="opportunities__text">Здесь текст, описывающий почему для данной услуги лучше обратиться именно к Нам - для каждой из вкладок свой текст, ну а мы разместили простой текст из поисковой выдачи</p>
       <p class="opportunities__text">Как открыть свой косметический кабинет. Одним из видов бизнеса в наше время считается открытие косметологического кабинета.</p>
+    </div>
+  </section>
+  <section class="promotion">
+    <div class="promotion__container">
+      <h2 class="promotion__header">Акция</h2>
+      <p class="promotion__subheader">8 октября для всех посетителей скидка 
+        <span class="promotion__subheader promotion__subheader_large">25%</span>
+      </p>
+      <div class="timer">
+        <p class="timer__subscription">до конца акции осталось:</p>
+        <ul class="timer__screen">
+          <li class="timer__numbers">
+            <p class="timer__numbers-display">01</p>
+            <p class="timer__numbers-subscription">дней</p>
+          </li>
+          <li class="timer__colon">:</li>
+          <li class="timer__numbers">
+            <p class="timer__numbers-display">22</p>
+            <p class="timer__numbers-subscription">часов</p>
+          </li>
+          <li class="timer__colon">:</li>
+          <li class="timer__numbers">
+            <p class="timer__numbers-display">34</p>
+            <p class="timer__numbers-subscription">минут</p>
+          </li>
+          <li class="timer__colon">:</li>
+          <li class="timer__numbers">
+            <p class="timer__numbers-display">17</p>
+            <p class="timer__numbers-subscription">секунд</p>
+          </li>
+        </ul>
+      </div>
+
+      <form action="" class="form promotion__form">
+        <h3 class="form__header promotion__form-header">Акция действует только для записавшихся на приём</h3>
+        <div class="form__container promotion__form-container">
+          <input type="text" name="" id="" class="form__input promotion__form-input" placeholder="Введите имя">
+          <input type="tel" name="" id="" class="form__input promotion__form-input" placeholder="Введите телефон">
+        </div>
+        <button class="form__submit">Отправить заявку</button>
+        <span class="form__info">В течение часа мы свяжемся с Вами для согласования удобного времени</span>
+      </form>
     </div>
   </section>
 </body>
