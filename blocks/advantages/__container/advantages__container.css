@@ -1,0 +1,9 @@
+.advantages__container {
+  border: none;
+  padding: 0;
+  max-width: 84px;
+  max-height: 56px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
