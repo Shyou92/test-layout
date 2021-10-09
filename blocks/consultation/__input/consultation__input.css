@@ -1,0 +1,7 @@
+.consultation__input {
+  margin-right: 25px;
+}
+
+.consultation__input:last-of-type(1) {
+  margin-right: 0;
+}
