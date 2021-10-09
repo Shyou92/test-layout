@@ -75,3 +75,15 @@
 @import url(../blocks/awards/__header/awards__header.css);
 @import url(../blocks/awards/__list/awards__list.css);
 @import url(../blocks/awards/__list-item/awards__list-item.css);
+
+/*reviews*/
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__header/reviews__header.css);
+@import url(../blocks/reviews/__list/reviews__list.css);
+@import url(../blocks/reviews/__item/reviews__item.css);
+@import url(../blocks/reviews/__item-container/reviews__item-container.css);
+@import url(../blocks/reviews/__image/reviews__image.css);
+@import url(../blocks/reviews/__text-container/reviews__text-container.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
