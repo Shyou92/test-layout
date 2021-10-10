@@ -3,3 +3,9 @@
   font-weight: bold;
   margin-left: 95px;
 }
+
+@media screen and (max-width: 506px) {
+  .reviews__name {
+    margin-left: 20%;
+  }
+}

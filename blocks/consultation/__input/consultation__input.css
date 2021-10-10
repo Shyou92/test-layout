@@ -5,3 +5,9 @@
 .consultation__input:last-of-type(1) {
   margin-right: 0;
 }
+
+@media screen and (max-width: 590px) {
+  .consultation__input {
+    margin-right: 0;
+  }
+}

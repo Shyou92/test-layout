@@ -1,8 +1,20 @@
 .partners__list-item {
   background-color: #0a4744;
   margin-right: 50px;
+  width: 150px;
 }
 
 .partners__list-item:nth-last-of-type(1) {
   margin-right: 0;
+}
+
+@media screen and (max-width: 1010px) {
+  .partners__list-item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .partners__list-item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
 }

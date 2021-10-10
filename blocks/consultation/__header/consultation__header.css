@@ -5,3 +5,10 @@
   font-weight: 300;
   margin-bottom: 45px;
 }
+
+@media screen and (max-width: 590px) {
+  .consultation__header {
+    line-height: 22px;
+    text-align: center;
+  }
+}

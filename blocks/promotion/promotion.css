@@ -1,6 +1,16 @@
 .promotion {
   background-image: url(../../images/Promotion.png);
   background-repeat: no-repeat;
-  margin: 0;
-  padding: 0; 
+  background-size: cover;
+  margin: 0 ;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 916px) {
+  .promotion {
+    align-items: center;
+  }
 }

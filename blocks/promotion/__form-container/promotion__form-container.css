@@ -1,4 +1,12 @@
 .promotion__form-container {
   display: flex;
+  justify-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 865px) {
+  .promotion__form-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

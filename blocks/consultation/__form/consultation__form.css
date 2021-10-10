@@ -3,3 +3,10 @@
   margin: 50px auto;
   align-items: center;
 }
+
+@media screen and (max-width: 590px) {
+  .consultation__form {
+    flex-direction: column;
+    align-items: center;
+  }
+}
