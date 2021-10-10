@@ -1,3 +1,13 @@
 .page__form {
   padding-bottom: 175px;
 }
+
+@media screen and (max-width: 400px) {
+  .page__form {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-bottom: 75px;
+  }
+}
