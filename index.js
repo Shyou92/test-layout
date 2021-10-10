@@ -2,6 +2,8 @@ const daysElement = document.querySelector("#days");
 const hoursElement = document.querySelector("#hours");
 const minutesElement = document.querySelector("#minutes");
 const secondsElement = document.querySelector("#seconds");
+const map = document.querySelector("#map");
+let myMap;
 
 const endDate = new Date("Oct 15, 2021 12:00:00").getTime();
 
@@ -23,3 +25,26 @@ const timer = setInterval(() => {
   }
 
 }, 1000);
+
+
+ymaps.ready(init);
+
+function init() {
+  myMap = new ymaps.Map("map", {
+    center: [44.609975, 33.516242],
+
+    zoom: 18,
+    });
+
+    myPlacemark1 = new ymaps.Placemark([44.609975, 33.516242], {
+      balloonContent: 'Наш чудесный салон',
+      preset: 'islands#blueIcon'
+    }, {
+      iconLayout: 'default#image',
+      iconImageClipRect: [[0,0], [28, 41]],
+      iconImageSize: [16, 32],
+      iconImageOffset: [-15, -27],
+    }),
+  
+  myMap.geoObjects.add(myPlacemark1)
+};

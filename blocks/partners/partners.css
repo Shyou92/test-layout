@@ -1,0 +1,8 @@
+.partners {
+  background-color: #0a4744;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

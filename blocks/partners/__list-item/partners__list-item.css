@@ -1,0 +1,8 @@
+.partners__list-item {
+  background-color: #0a4744;
+  margin-right: 50px;
+}
+
+.partners__list-item:nth-last-of-type(1) {
+  margin-right: 0;
+}

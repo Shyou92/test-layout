@@ -105,3 +105,28 @@
 @import url(../blocks/consultation/__header/consultation__header.css);
 @import url(../blocks/consultation/__form-container/consultation__form-container.css);
 @import url(../blocks/consultation/__input/consultation__input.css);
+
+/*partners*/
+
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__header/partners__header.css);
+@import url(../blocks/partners/__list/partners__list.css);
+@import url(../blocks/partners/__list-item/partners__list-item.css);
+@import url(../blocks/partners/__image/partners__image.css);
+@import url(../blocks/partners/__size/partners__size.css);
+@import url(../blocks/partners/__image/_maxfactor/partners__size_maxfactor.css);
+
+/*footer*/
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__header/footer__header.css);
+@import url(../blocks/footer/__map/footer__map.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__list-worktime/footer__list-worktime.css);
+@import url(../blocks/footer/__list-worktime-item/footer__list-worktime-item.css);
+@import url(../blocks/footer/__text/footer__text.css);

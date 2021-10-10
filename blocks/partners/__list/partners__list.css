@@ -1,0 +1,5 @@
+.partners__list {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 70px;
+}
