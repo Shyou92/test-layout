@@ -9,3 +9,14 @@
 .advantages__item:nth-last-of-type(1) {
   margin-right: 0;
 }
+
+@media screen and (max-width: 1010px) {
+  .grid__item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .grid__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+}

@@ -5,3 +5,14 @@
 .awards__list-item:last-of-type(1)  {
   margin-right: 0;
 }
+
+@media screen and (max-width: 915px) {
+  .awards__list-item {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .awards__list-item:last-of-type(1)  {
+    margin-bottom: 0;
+  }
+}

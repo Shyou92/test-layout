@@ -2,4 +2,12 @@
   display: flex;
   list-style-type: none;
   margin-bottom: 40px;
+  padding: 0;
+}
+
+@media screen and (max-width: 915px) {
+  .awards__list {
+    flex-direction: column;
+    align-items: center;
+  }
 }

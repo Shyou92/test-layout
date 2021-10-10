@@ -1,3 +1,10 @@
 .reviews__item-container {
-  width: 85px;
+  max-width: 88px;
+}
+
+@media screen and (max-width: 870px) {
+  .reviews__item-container {
+    max-width: 88px;
+    max-height: 88px;
+  }
 }
